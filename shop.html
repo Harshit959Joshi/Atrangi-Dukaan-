@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atrangi Dukaan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <!-- <script defer src="https://kit.fontawesome.com/433888fe69.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <!-- <h1>Heading 1 Example</h1> -->
+    <section id="header">
+         <a href="index.html"><img src="logo.jpg" class="logo" alt="logo" style="width: 70px; height: 50px; border-radius: 50%; object-fit: cover;"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close" ><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+ 
+    </section>
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro">
+                <img src="jethlal.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Jethalal Champaklal Gada</h5>
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="JETHA01" data-name="Jethalal Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="daya.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Daya Jethalal Gada</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Daya01" data-name="Daya Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="tapu.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Tipendra Gada (Tapu)</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Tapu01" data-name="Tapu Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="champak chacha.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Champaklal Jayantilal Gada (Bapuji)</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Bapuji01" data-name="Bapuji Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="tarak mehta.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Taarak Mehta</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Taarak01" data-name="Taarak Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="anjali.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Anjali mehta</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Anjali01" data-name="Anjali Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="sodhi.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Roshan Singh Sodhi</h5>
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Sodhi01" data-name="Sodhiethalal Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="roshan.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Roshan Kaur Sodhi</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Roshan01" data-name="Roshan Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="gogi.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Gurucharan Singh Sodhi (Gogi)</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Gogi01" data-name="Gogi Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="hathi.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Dr. Hansraj Hathi</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Hathi01" data-name="Dr. Hansraj HathiMiniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="hathni.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Komal Hathi</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="KomalHathi01" data-name="Komal Hathi Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="goli.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Gulabkumar Hathi (Goli)</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Goli01" data-name="Goli Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="iyer.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Krishnan Subramaniam Iyer</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Iyer01" data-name="Iyer Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="babita.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Babita Iyer</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Babita01" data-name="Babita Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pinku.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Pinku Diwan</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Pinku01" data-name="Pinku Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="bhide.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Aatmaram Tukaram Bhide</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Bhide01" data-name="Bhide Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="madhvi.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Madhavi Bhide</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Madhavi01" data-name="Madhavi Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="sonu.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Sonu Bhide</h5>
+                    
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Sonu01" data-name="Sonu Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+             <div class="pro">
+                <img src="popat lal.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Popatlal Pandey</h5>
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Popatlal01" data-name="Popatlal Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+             <div class="pro">
+                <img src="abdul.png" alt="">
+                <div class="des">
+                    <span>Atrangi Dukaan</span>
+                    <h5>Abdul</h5>                  
+                    <h4>₹199</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-code="Abdul01" data-name="Abdul Miniature Toy" data-price="199" onclick="addToCart(this)"> <i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+        <section id="newsletter" class="section-p1 section-m1">
+     <div class="newtext">
+      <h4>Sign Up For Newsletters</h4>
+      <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+     </div>
+        <!-- Formspree Form -->
+     <form action="https://formspree.io/f/xeozyyeo" method="POST" class="newsletter-form">
+       <input type="email" name="email" placeholder="Your email address" required>
+       <button type="submit" class="normal">SEND</button>
+     </form>
+       <p id="newsletterMessage" style="display:none; color: #f7a100; margin-top:10px;">
+        Thanks for Sending !
+       </p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="section-p1 footer">
+        <div class="footer-container">
+            <!-- Logo & Contact Info -->
+            <div class="footer-col">
+                
+                <h4>Contact</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Dudhli, Dehradun, Uttarakhand, India</p>
+                <p><i class="fas fa-phone"></i> +91 7895386211</p>
+                <p><i class="fas fa-clock"></i> 09:00 AM - 5:00 PM, Mon - Sat</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-col">
+                <h4>Join Our Newsletter</h4>
+                <p>Don’t miss out on new arrivals and crazy deals!</p>
+            </div>
+
+            <!-- Social Links -->
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <p class="copyright">© 2025 Atrangi Dukaan Pvt Ltd. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+       const form = document.getElementById("newsletterForm");
+       const message = document.getElementById("newsletterMessage");
+       form.addEventListener("submit", function(e) {
+       setTimeout(() => {
+       message.style.display = "block";
+       }, 500);
+       });
+    </script>
+</body>
+
+</html>
